@@ -33,7 +33,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    image: danig55/crush-backend:latest
+    image: Vaskoio/crush-backend:latest
     container_name: crush-backend
     restart: unless-stopped
     environment:
@@ -62,7 +62,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    image: danig55/crush-frontend:latest
+    image: Vaskoio/crush-frontend:latest
     container_name: crush-frontend
     restart: unless-stopped
     ports:
